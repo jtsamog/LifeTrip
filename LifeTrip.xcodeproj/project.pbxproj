@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82B13E61F535194004F7AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B13E51F535194004F7AED /* AppDelegate.swift */; };
+		A82B13E81F535194004F7AED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B13E71F535194004F7AED /* HomeViewController.swift */; };
+		A82B13EB1F535194004F7AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82B13E91F535194004F7AED /* Main.storyboard */; };
+		A82B13F01F535194004F7AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82B13EE1F535194004F7AED /* LaunchScreen.storyboard */; };
+		A82B13FA1F53581F004F7AED /* PriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B13F91F53581F004F7AED /* PriceData.swift */; };
+		A82B13FC1F535A9B004F7AED /* RestrictionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B13FB1F535A9B004F7AED /* RestrictionsData.swift */; };
+		A82B13FE1F535C32004F7AED /* FareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B13FD1F535C32004F7AED /* FareData.swift */; };
+		A82B14091F549B8A004F7AED /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B14011F549B8A004F7AED /* Destination.swift */; };
+		A82B140D1F549B8A004F7AED /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B14051F549B8A004F7AED /* Origin.swift */; };
+		A82B14161F55D212004F7AED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B14151F55D212004F7AED /* Result.swift */; };
+		A82B14181F55D417004F7AED /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B14171F55D417004F7AED /* Itinerary.swift */; };
+		A86AF2B91F56354E000B92A7 /* SearchFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AF2B71F56354E000B92A7 /* SearchFlightViewController.swift */; };
+		A86AF2BC1F588A18000B92A7 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AF2BB1F588A18000B92A7 /* ApiManager.swift */; };
+		A86AF2BE1F588A21000B92A7 /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AF2BD1F588A21000B92A7 /* FlightData.swift */; };
+		A8AD20C71F6A37BE005E6EE5 /* AirportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD20C61F6A37BE005E6EE5 /* AirportsViewController.swift */; };
+		A8AD20C91F7055DD005E6EE5 /* OneWayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD20C81F7055DD005E6EE5 /* OneWayTableViewCell.swift */; };
+		A8BD54D61F5916850072C82F /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54D51F5916850072C82F /* Objective-CBridgingHeader.m */; };
+		A8BD54DD1F59C2DF0072C82F /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54DC1F59C2DF0072C82F /* AirportData.swift */; };
+		A8BD54DF1F59C3730072C82F /* SearchAirportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54DE1F59C3730072C82F /* SearchAirportResponse.swift */; };
+		A8BD54E41F61B02D0072C82F /* SearchFlightRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54E31F61B02D0072C82F /* SearchFlightRequest.swift */; };
+		A8BD54E71F63163C0072C82F /* FlightsResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54E61F63163C0072C82F /* FlightsResultsTableViewController.swift */; };
+		A8BD54EF1F68E1390072C82F /* airlines.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8BD54EC1F68E1390072C82F /* airlines.plist */; };
+		A8BD54F31F68EC9F0072C82F /* AirlinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54F21F68EC9F0072C82F /* AirlinesManager.swift */; };
+		A8BD54F91F69BE500072C82F /* RoundTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD54F81F69BE500072C82F /* RoundTripTableViewCell.swift */; };
+		A8E802081F55F39700AF03ED /* BookingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E802071F55F39700AF03ED /* BookingInfo.swift */; };
+		A8E8020A1F55F41300AF03ED /* SearchFlightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E802091F55F41300AF03ED /* SearchFlightResponse.swift */; };
+		A8E8020E1F55F55400AF03ED /* TripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8020D1F55F55400AF03ED /* TripData.swift */; };
+		A8E802191F56005C00AF03ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E802181F56005C00AF03ED /* Images.xcassets */; };
+		A8E8021D1F561E3F00AF03ED /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8021C1F561E3F00AF03ED /* MenuTableViewCell.swift */; };
+		E0A488915433A647492D5EF4 /* Pods_LifeTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2851697B633984712CFA877B /* Pods_LifeTrip.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B13EED32C47C831BCFD9638 /* Pods-LifeTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeTrip/Pods-LifeTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		2851697B633984712CFA877B /* Pods_LifeTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695AC5F13976860FDD7310D4 /* Pods-LifeTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeTrip/Pods-LifeTrip.release.xcconfig"; sourceTree = "<group>"; };
+		A82B13E21F535194004F7AED /* LifeTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82B13E51F535194004F7AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A82B13E71F535194004F7AED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A82B13EA1F535194004F7AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82B13EF1F535194004F7AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82B13F11F535194004F7AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82B13F91F53581F004F7AED /* PriceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceData.swift; sourceTree = "<group>"; };
+		A82B13FB1F535A9B004F7AED /* RestrictionsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictionsData.swift; sourceTree = "<group>"; };
+		A82B13FD1F535C32004F7AED /* FareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareData.swift; sourceTree = "<group>"; };
+		A82B14011F549B8A004F7AED /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		A82B14051F549B8A004F7AED /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
+		A82B14151F55D212004F7AED /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A82B14171F55D417004F7AED /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		A86AF2B71F56354E000B92A7 /* SearchFlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFlightViewController.swift; sourceTree = "<group>"; };
+		A86AF2BB1F588A18000B92A7 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A86AF2BD1F588A21000B92A7 /* FlightData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		A8AD20C61F6A37BE005E6EE5 /* AirportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsViewController.swift; sourceTree = "<group>"; };
+		A8AD20C81F7055DD005E6EE5 /* OneWayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneWayTableViewCell.swift; sourceTree = "<group>"; };
+		A8BD54D41F5916850072C82F /* LifeTrip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeTrip-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8BD54D51F5916850072C82F /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+		A8BD54DC1F59C2DF0072C82F /* AirportData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		A8BD54DE1F59C3730072C82F /* SearchAirportResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAirportResponse.swift; sourceTree = "<group>"; };
+		A8BD54E31F61B02D0072C82F /* SearchFlightRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFlightRequest.swift; sourceTree = "<group>"; };
+		A8BD54E61F63163C0072C82F /* FlightsResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsResultsTableViewController.swift; sourceTree = "<group>"; };
+		A8BD54EC1F68E1390072C82F /* airlines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = airlines.plist; sourceTree = "<group>"; };
+		A8BD54F21F68EC9F0072C82F /* AirlinesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlinesManager.swift; sourceTree = "<group>"; };
+		A8BD54F81F69BE500072C82F /* RoundTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTripTableViewCell.swift; sourceTree = "<group>"; };
+		A8E802071F55F39700AF03ED /* BookingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingInfo.swift; sourceTree = "<group>"; };
+		A8E802091F55F41300AF03ED /* SearchFlightResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFlightResponse.swift; sourceTree = "<group>"; };
+		A8E8020D1F55F55400AF03ED /* TripData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripData.swift; sourceTree = "<group>"; };
+		A8E802181F56005C00AF03ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8E8021C1F561E3F00AF03ED /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82B13DF1F535194004F7AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A488915433A647492D5EF4 /* Pods_LifeTrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580AC5E23B69F4038F31C0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2851697B633984712CFA877B /* Pods_LifeTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A82B13D91F535194004F7AED = {
+			isa = PBXGroup;
+			children = (
+				A82B13E41F535194004F7AED /* LifeTrip */,
+				A82B13E31F535194004F7AED /* Products */,
+				F8B83A069B1CB870595188DC /* Pods */,
+				580AC5E23B69F4038F31C0F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A82B13E31F535194004F7AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82B13E21F535194004F7AED /* LifeTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82B13E41F535194004F7AED /* LifeTrip */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54F71F69BD750072C82F /* Results VC */,
+				A8BD54E01F59C6820072C82F /* Search Airport VC */,
+				A86AF2B61F5634C1000B92A7 /* Search Flight VC */,
+				A82B13E51F535194004F7AED /* AppDelegate.swift */,
+				A8BD54D51F5916850072C82F /* Objective-CBridgingHeader.m */,
+				A8E8021B1F561D9B00AF03ED /* Client */,
+				A8E8021A1F561D8900AF03ED /* Menu */,
+				A8E802151F55FFDE00AF03ED /* Asset */,
+				A82B13FF1F549B21004F7AED /* Models */,
+				A8BD54F61F69BD190072C82F /* Airlines list */,
+				A82B13E91F535194004F7AED /* Main.storyboard */,
+				A82B13EE1F535194004F7AED /* LaunchScreen.storyboard */,
+				A82B13F11F535194004F7AED /* Info.plist */,
+				A8E802181F56005C00AF03ED /* Images.xcassets */,
+				A8BD54D41F5916850072C82F /* LifeTrip-Bridging-Header.h */,
+			);
+			path = LifeTrip;
+			sourceTree = "<group>";
+		};
+		A82B13FF1F549B21004F7AED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54DB1F59C29B0072C82F /* airport autocomplete */,
+				A8BD54DA1F59C2910072C82F /* low fare api */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A86AF2B61F5634C1000B92A7 /* Search Flight VC */ = {
+			isa = PBXGroup;
+			children = (
+				A86AF2B71F56354E000B92A7 /* SearchFlightViewController.swift */,
+			);
+			name = "Search Flight VC";
+			sourceTree = "<group>";
+		};
+		A8BD54DA1F59C2910072C82F /* low fare api */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54E31F61B02D0072C82F /* SearchFlightRequest.swift */,
+				A8BD54DE1F59C3730072C82F /* SearchAirportResponse.swift */,
+				A82B13F91F53581F004F7AED /* PriceData.swift */,
+				A82B13FB1F535A9B004F7AED /* RestrictionsData.swift */,
+				A82B13FD1F535C32004F7AED /* FareData.swift */,
+				A8E802071F55F39700AF03ED /* BookingInfo.swift */,
+				A82B14011F549B8A004F7AED /* Destination.swift */,
+				A82B14051F549B8A004F7AED /* Origin.swift */,
+				A82B14171F55D417004F7AED /* Itinerary.swift */,
+				A82B14151F55D212004F7AED /* Result.swift */,
+				A8E802091F55F41300AF03ED /* SearchFlightResponse.swift */,
+				A8E8020D1F55F55400AF03ED /* TripData.swift */,
+				A86AF2BD1F588A21000B92A7 /* FlightData.swift */,
+			);
+			name = "low fare api";
+			sourceTree = "<group>";
+		};
+		A8BD54DB1F59C29B0072C82F /* airport autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54DC1F59C2DF0072C82F /* AirportData.swift */,
+			);
+			name = "airport autocomplete";
+			sourceTree = "<group>";
+		};
+		A8BD54E01F59C6820072C82F /* Search Airport VC */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD20C61F6A37BE005E6EE5 /* AirportsViewController.swift */,
+			);
+			name = "Search Airport VC";
+			sourceTree = "<group>";
+		};
+		A8BD54F61F69BD190072C82F /* Airlines list */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54EC1F68E1390072C82F /* airlines.plist */,
+				A8BD54F21F68EC9F0072C82F /* AirlinesManager.swift */,
+			);
+			name = "Airlines list";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A8BD54F71F69BD750072C82F /* Results VC */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD54E61F63163C0072C82F /* FlightsResultsTableViewController.swift */,
+				A8BD54F81F69BE500072C82F /* RoundTripTableViewCell.swift */,
+				A8AD20C81F7055DD005E6EE5 /* OneWayTableViewCell.swift */,
+			);
+			name = "Results VC";
+			sourceTree = "<group>";
+		};
+		A8E802151F55FFDE00AF03ED /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		A8E8021A1F561D8900AF03ED /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A82B13E71F535194004F7AED /* HomeViewController.swift */,
+				A8E8021C1F561E3F00AF03ED /* MenuTableViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		A8E8021B1F561D9B00AF03ED /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				A86AF2BB1F588A18000B92A7 /* ApiManager.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		F8B83A069B1CB870595188DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B13EED32C47C831BCFD9638 /* Pods-LifeTrip.debug.xcconfig */,
+				695AC5F13976860FDD7310D4 /* Pods-LifeTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82B13E11F535194004F7AED /* LifeTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82B13F41F535194004F7AED /* Build configuration list for PBXNativeTarget "LifeTrip" */;
+			buildPhases = (
+				4E0C7A954C4039892DD3F3AB /* [CP] Check Pods Manifest.lock */,
+				A82B13DE1F535194004F7AED /* Sources */,
+				A82B13DF1F535194004F7AED /* Frameworks */,
+				A82B13E01F535194004F7AED /* Resources */,
+				727F3D87D4B8F4EC49DAB849 /* [CP] Embed Pods Frameworks */,
+				67CCBD0D4F81C482F39E343D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeTrip;
+			productName = LifeTrip;
+			productReference = A82B13E21F535194004F7AED /* LifeTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82B13DA1F535194004F7AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anas Najjar";
+				TargetAttributes = {
+					A82B13E11F535194004F7AED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GY8NX7KA6F;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A82B13DD1F535194004F7AED /* Build configuration list for PBXProject "LifeTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82B13D91F535194004F7AED;
+			productRefGroup = A82B13E31F535194004F7AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82B13E11F535194004F7AED /* LifeTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82B13E01F535194004F7AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E802191F56005C00AF03ED /* Images.xcassets in Resources */,
+				A82B13F01F535194004F7AED /* LaunchScreen.storyboard in Resources */,
+				A8BD54EF1F68E1390072C82F /* airlines.plist in Resources */,
+				A82B13EB1F535194004F7AED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E0C7A954C4039892DD3F3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67CCBD0D4F81C482F39E343D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeTrip/Pods-LifeTrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727F3D87D4B8F4EC49DAB849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifeTrip/Pods-LifeTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeTrip/Pods-LifeTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82B13DE1F535194004F7AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82B14181F55D417004F7AED /* Itinerary.swift in Sources */,
+				A8BD54E41F61B02D0072C82F /* SearchFlightRequest.swift in Sources */,
+				A8BD54D61F5916850072C82F /* Objective-CBridgingHeader.m in Sources */,
+				A8BD54E71F63163C0072C82F /* FlightsResultsTableViewController.swift in Sources */,
+				A82B13E81F535194004F7AED /* HomeViewController.swift in Sources */,
+				A8E802081F55F39700AF03ED /* BookingInfo.swift in Sources */,
+				A8BD54DF1F59C3730072C82F /* SearchAirportResponse.swift in Sources */,
+				A86AF2BE1F588A21000B92A7 /* FlightData.swift in Sources */,
+				A8BD54F91F69BE500072C82F /* RoundTripTableViewCell.swift in Sources */,
+				A8E8020A1F55F41300AF03ED /* SearchFlightResponse.swift in Sources */,
+				A8BD54DD1F59C2DF0072C82F /* AirportData.swift in Sources */,
+				A82B13FE1F535C32004F7AED /* FareData.swift in Sources */,
+				A82B14161F55D212004F7AED /* Result.swift in Sources */,
+				A8AD20C71F6A37BE005E6EE5 /* AirportsViewController.swift in Sources */,
+				A82B13E61F535194004F7AED /* AppDelegate.swift in Sources */,
+				A86AF2BC1F588A18000B92A7 /* ApiManager.swift in Sources */,
+				A82B13FA1F53581F004F7AED /* PriceData.swift in Sources */,
+				A8AD20C91F7055DD005E6EE5 /* OneWayTableViewCell.swift in Sources */,
+				A82B14091F549B8A004F7AED /* Destination.swift in Sources */,
+				A8BD54F31F68EC9F0072C82F /* AirlinesManager.swift in Sources */,
+				A82B13FC1F535A9B004F7AED /* RestrictionsData.swift in Sources */,
+				A86AF2B91F56354E000B92A7 /* SearchFlightViewController.swift in Sources */,
+				A82B140D1F549B8A004F7AED /* Origin.swift in Sources */,
+				A8E8020E1F55F55400AF03ED /* TripData.swift in Sources */,
+				A8E8021D1F561E3F00AF03ED /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A82B13E91F535194004F7AED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82B13EA1F535194004F7AED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82B13EE1F535194004F7AED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82B13EF1F535194004F7AED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82B13F21F535194004F7AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82B13F31F535194004F7AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82B13F51F535194004F7AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B13EED32C47C831BCFD9638 /* Pods-LifeTrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GY8NX7KA6F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Eureka\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = LifeTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.anas.LifeTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LifeTrip/LifeTrip-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A82B13F61F535194004F7AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695AC5F13976860FDD7310D4 /* Pods-LifeTrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GY8NX7KA6F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Eureka\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = LifeTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.anas.LifeTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LifeTrip/LifeTrip-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82B13DD1F535194004F7AED /* Build configuration list for PBXProject "LifeTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82B13F21F535194004F7AED /* Debug */,
+				A82B13F31F535194004F7AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82B13F41F535194004F7AED /* Build configuration list for PBXNativeTarget "LifeTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82B13F51F535194004F7AED /* Debug */,
+				A82B13F61F535194004F7AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82B13DA1F535194004F7AED /* Project object */;
+}
