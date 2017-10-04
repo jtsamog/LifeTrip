@@ -7,10 +7,9 @@
 //
 
 import UIKit
-
-let API_Flight = "https://api.sandbox.amadeus.com/v1.2/flights/low-fare-search?apikey=7n2hdGr0r9ZoEVzTdBM5DFWKxYJtPOqe&"
-
-let API_Airport = "http://api.sandbox.amadeus.com/v1.2/airports/autocomplete?apikey=7n2hdGr0r9ZoEVzTdBM5DFWKxYJtPOqe&term="
+let API_KEY = "PUT_API_KEY_HERE"
+let API_Flight = "https://api.sandbox.amadeus.com/v1.2/flights/low-fare-search?apikey=\(API_KEY)&"
+let API_Airport = "http://api.sandbox.amadeus.com/v1.2/airports/autocomplete?apikey=\(API_KEY)&term="
 
 private let sharedManager = ApiManager ()
 
